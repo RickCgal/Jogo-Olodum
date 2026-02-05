@@ -28,18 +28,18 @@
 
 <script>
     const lista = [
-        { n: "Surdo", s: true, i: "Surdo.png", d: "SIM! O coração do Olodum. Dita o grave que sentimos no peito. Vem de tradições africanas." },
-        { n: "Caixa", s: true, i: "Caixa.png", d: "SIM! A caixa dá o motor rítmico. Adaptada de bandas militares para o balanço baiano." },
-        { n: "Chocalho", s: true, i: "Chocalho.png", d: "SIM! Traz o brilho e preenche o som entre as batidas dos tambores." },
-        { n: "Repique de Mão", s: true, i: "Repique de Mão.png", d: "SIM! É o instrumento que faz as chamadas e cortes rítmicos que guiam a banda." },
-        { n: "Timbau", s: true, i: "Timbal.png", d: "SIM! O Timbau é fundamental no Samba-Reggae. Surgiu na Bahia e foi popularizado por Carlinhos Brown." },
-        { n: "Violino", s: false, i: "Violino.png", d: "NÃO! Instrumento clássico europeu. Não faz parte da bateria de rua do Olodum." },
-        { n: "Berimbau", s: false, i: "Berimbau.png", d: "NÃO! Símbolo da capoeira. Embora baiano, não é da bateria clássica do Olodum." },
-        { n: "Marimba", s: false, i: "Marimba.png", d: "NÃO! Xilofone de origem africana, mas melódico demais para o bloco." },
-        { n: "Gongo", s: false, i: "Gongo Chines.png", d: "NÃO! Origem asiática. O Olodum usa apenas metais como o Agogô." },
-        { n: "Cello", s: false, i: "Cello.png", d: "NÃO! Instrumento de orquestra, pesado demais para os desfiles." },
-        { n: "Violão", s: false, i: "violão.png", d: "NÃO! Instrumento de cordas harmônico. O foco do Olodum é percussão pura." },
-        { n: "Harpa", s: false, i: "Harpa.png", d: "NÃO! Instrumento de cordas antigo e delicado." }
+        { n: "Surdo", status: true, img: "Surdo.png", d: "SIM! O coração do Olodum." },
+        { n: "Caixa", status: true, img: "Caixa.png", d: "SIM! Traz o motor do ritmo." },
+        { n: "Chocalho", status: true, img: "Chocalho.png", d: "SIM! Dá brilho ao som." },
+        { n: "Repique de Mão", status: true, img: "Repique de Mão.png", d: "SIM! Faz as chamadas." },
+        { n: "Timbau", status: true, img: "Timbal.png", d: "SIM! Sons agudos e estalados." },
+        { n: "Violino", status: false, img: "Violino.png", d: "NÃO! Instrumento europeu." },
+        { n: "Berimbau", status: false, img: "Berimbau.png", d: "NÃO! É da capoeira." },
+        { n: "Marimba", status: false, img: "Marimba.png", d: "NÃO! Xilofone melódico." },
+        { n: "Gongo Chinês", status: false, img: "Gongo Chines.png", d: "NÃO! Origem asiática." },
+        { n: "Violoncelo", status: false, img: "Cello.png", d: "NÃO! Instrumento de orquestra." },
+        { n: "Violão", status: false, img: "violão.png", d: "NÃO! Instrumento de cordas." },
+        { n: "Harpa", status: false, img: "Harpa.png", d: "NÃO! Instrumento delicado." }
     ];
 
     const grade = document.getElementById('grade');
@@ -59,4 +59,5 @@
 </script>
 </body>
 </html>
+
 
